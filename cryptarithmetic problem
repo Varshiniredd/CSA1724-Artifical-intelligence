@@ -1,6 +1,3 @@
-print("A.JASWANTHI")
-print("192111382")
-print("cryptarthimetic")
 def is_solution_valid(mapping, words, result):
     # Convert words and result to integers based on the mapping
     word_values = [int(''.join(str(mapping[c]) for c in word)) for word in words]
